@@ -16,8 +16,27 @@ The final score is the total of all frame scores.
 
 In this kata, you will write a class `Game` that calculates the score of a game of ten-pin bowling that has two methods:
 
-1. `void roll(int)` is called each time the player rolls a ball, the argument is the number of pins knocked down;
-2. `int score()` returns the total score for that game.
+1. `void roll(int pins)` is called each time the player rolls a ball, with `pins` (0 <= pins <= 10) representing the number of pins knocked down in the current roll;
+2. `int score()` returns the score calculated using the rules described above.
+
+For the purposes of this kata, a "gutter game" (where the player never hits any pins) is not a valid input.
+
+## Examples
+
+### Maximum score
+
+Here is an example of a game where the player gets a maximum score of 300:
+
+```cpp
+Game game;
+for (int i = 0; i < 12; ++i) {
+     game.roll(10);
+}
+
+assert(game.score() == 300);
+```
+
+In this example, the player gets 12 strikes in a row, which is the maximum number of strikes possible in a game. Each strike is worth 10 points, plus the number of pins knocked down on the next two rolls. Since the player gets a strike on every roll, they are awarded a bonus of 10 pins for each of the next two rolls, for a total of 300 points.
 
 ## Usage
 

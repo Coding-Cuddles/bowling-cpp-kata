@@ -5,5 +5,5 @@ public:
     BowlingGame() = default;
 
     void roll(int pins) {}
-    int score() const { return 0; }
+    int  score() const { return 0; }
 };

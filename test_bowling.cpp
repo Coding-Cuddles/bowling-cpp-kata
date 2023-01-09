@@ -2,12 +2,12 @@
 
 #include "bowling.h"
 
-TEST(Bowling, MaximumScore)
+TEST(BowlingTest, GutterGame)
 {
-    Game game;
-    for (int i = 0; i < 12; ++i) {
-         game.roll(10);
+    BowlingGame game;
+    for (int i = 0; i < 20; ++i) {
+         game.roll(0);
     }
 
-    EXPECT_EQ(game.score(), 300);
+    EXPECT_EQ(game.score(), 0);
 }

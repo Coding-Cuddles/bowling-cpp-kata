@@ -1,10 +1,9 @@
 #pragma once
 
-class Game {
+class BowlingGame {
 public:
-    Game() = default;
+    BowlingGame() = default;
 
     void roll(int pins) {}
-
     int score() const { return 0; }
 };

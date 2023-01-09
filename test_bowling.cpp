@@ -5,9 +5,8 @@
 TEST(BowlingTest, GutterGame)
 {
     BowlingGame game;
-    for (int i = 0; i < 20; ++i) {
-         game.roll(0);
-    }
+    for (int i = 0; i < 20; ++i)
+        game.roll(0);
 
     EXPECT_EQ(game.score(), 0);
 }

@@ -62,9 +62,8 @@ down. Added to 16, it gives a total of 24.
 Here is an example of a game where the player gets the maximum score:
 
 ```cpp
-for (int i = 0; i < 12; ++i) {
-     game.roll(10);
-}
+for (int i = 0; i < 12; ++i)
+    game.roll(10);
 
 assert(game.score() == 300);
 ```

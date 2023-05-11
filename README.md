@@ -1,6 +1,7 @@
 # Bowling C++ Kata
 
-[![Run on Replit](https://replit.com/badge/github/Coding-Cuddles/bowling-cpp-kata)](https://replit.com/new/github/Coding-Cuddles/bowling-cpp-kata)
+[![CI](https://github.com/Coding-Cuddles/bowling-cpp-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/bowling-cpp-kata/actions/workflows/main.yml)
+[![Replit](https://replit.com/badge?caption=Try%20with%20Replit&variant=small)](https://replit.com/new/github/Coding-Cuddles/bowling-cpp-kata)
 
 ## Overview
 
@@ -74,8 +75,8 @@ knocked down on the next two rolls, resulting in 300 points.
 
 ## Usage
 
-You can import this project into [Replit](https://replit.com),
-and it will handle all dependencies automatically.
+You can import this project into [Replit](https://replit.com), and it will
+handle all dependencies automatically.
 
 ### Prerequisites
 

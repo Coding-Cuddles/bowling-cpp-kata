@@ -23,7 +23,7 @@ player is awarded one more roll.
 
 A **strike** is when the player knocks down all the pins in one roll.  If the
 player gets a strike, their score for the frame is ten, plus the number of pins
-knocked down on their next two rolls. If a spare is thrown in the tenth frame,
+knocked down on their next two rolls. If a strike is thrown in the tenth frame,
 the player is awarded two more rolls.
 
 The final score is the total of all frame scores.

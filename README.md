@@ -74,8 +74,8 @@ assert(game.score() == 300);
 ```
 
 In this example, the player gets 12 strikes in a row, the maximum number of
-strikes possible in a game. Each strike is worth 10 points, plus the pins were
-knocked down on the next two rolls, resulting in 300 points.
+strikes possible in a game. Each strike is worth 10 points, plus the number of
+pins knocked down on the next two rolls, resulting in 300 points.
 
 ## Prerequisites
 
